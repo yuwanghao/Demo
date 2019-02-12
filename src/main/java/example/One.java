@@ -1,7 +1,10 @@
 package example;
 
-public class One {
+class One {
     String message = "foo";
+
+    One() {
+    }
 
     public String foo() {
         return message;
